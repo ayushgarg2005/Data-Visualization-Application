@@ -1,0 +1,214 @@
+1. Comparison Charts
+Bar Chart
+
+X: Categorical
+
+Y: Numerical
+
+Use: Compare values across categories
+
+Example: Sales by Region
+
+Grouped Bar Chart
+
+X: Primary Category (e.g., Region)
+
+Y: Numerical
+
+Group (Color): Sub-category (e.g., Gender)
+
+Use: Compare multiple sub-categories within a group
+
+Stacked Bar Chart
+
+X: Categorical
+
+Y: Numerical
+
+Group (Stack): Categorical
+
+Use: Show part-to-whole within categories
+
+2. Trend Charts
+Line Chart
+
+X: Date/Time or Continuous variable
+
+Y: Numerical
+
+Use: Show trends over time
+
+Example: Revenue over Date
+
+Line with Markers
+
+X: Date/Time
+
+Y: Numerical
+
+Use: Highlight key data points along trend lines
+
+Area Chart
+
+X: Time
+
+Y: Numerical
+
+Use: Show cumulative values and trends
+
+3. Distribution Charts
+Histogram
+
+X: Numerical
+
+Use: Show distribution of a single variable
+
+Example: Frequency of Age
+
+Box Plot
+
+Y: Numerical
+
+X (Optional): Categorical
+
+Use: Show spread, median, and outliers
+
+Example: Salary distribution by Department
+
+Violin Plot
+
+Y: Numerical
+
+X (Optional): Categorical
+
+Use: Combine box plot and KDE (distribution shape)
+
+Density Plot (2D Contour)
+
+X: Numerical
+
+Y: Numerical
+
+Use: Show bivariate distribution
+
+4. Relationship Charts
+Scatter Plot
+
+X: Numerical
+
+Y: Numerical
+
+Use: Examine correlation or relationship
+
+Example: Height vs Weight
+
+Bubble Chart
+
+X: Numerical
+
+Y: Numerical
+
+Size: Numerical
+
+Color (Optional): Category
+
+Use: Add third dimension using size
+
+Heatmap
+
+X: Categorical/Numerical
+
+Y: Categorical/Numerical
+
+Z (Color): Numerical
+
+Use: Highlight intensity or correlation
+
+5. Composition Charts
+Pie Chart
+
+Labels: Categorical
+
+Values: Numerical
+
+Use: Show proportions (less than 6 categories ideal)
+
+Donut Chart
+
+Same as pie chart with center hole
+
+Waterfall Chart
+
+X: Categories or steps
+
+Y: Incremental values
+
+Use: Show how parts add/subtract from total
+
+Treemap
+
+Labels: Categorical
+
+Values: Numerical
+
+Hierarchy (Optional): Categorical
+
+Use: Show proportions and hierarchy together
+
+Sunburst Chart
+
+Labels: Categorical
+
+Hierarchy: Parent categories
+
+Values: Numerical
+
+Use: Multi-level part-to-whole
+
+6. Specialized Charts
+Radar Chart
+
+Axis: Multiple dimensions per observation
+
+Use: Profile comparison (e.g., skills, ratings)
+
+Timeline
+
+X: Dates
+
+Text: Events
+
+Use: Sequence of milestones
+
+Candlestick Chart
+
+X: Date
+
+Open, High, Low, Close: Numerical
+
+Use: Financial data and stock price movements
+
+Map Chart
+
+Location: Geographical (Country, City, Lat/Lon)
+
+Value: Numerical
+
+Use: Spatial visualization (e.g., population, sales)
+
+Funnel Chart
+
+X: Stage
+
+Y: Count or Percentage
+
+Use: Conversion rates across steps
+
+Chart Type Selection Tips
+Data Type	Best Charts
+Categorical	Bar, Pie, Donut, Treemap, Sunburst
+Numerical	Histogram, Box Plot, Violin, Line, Area, Scatter, Bubble
+Datetime	Line, Area, Candlestick, Timeline
+Two Numericals	Scatter, Bubble, Heatmap, Density Contour
+Proportions	Pie, Donut, Treemap, Stacked Bar, Waterfall
+Time Series	Line, Area, Candlestick
