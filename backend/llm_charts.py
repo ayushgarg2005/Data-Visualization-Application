@@ -17,7 +17,7 @@ from retriever import retrieve_context
 # Load API key
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model_name = "gemini-2.0-flash"
+model_name = ""
 
 # LangChain wrapper
 llm = ChatGoogleGenerativeAI(model=model_name, temperature=0.7)
